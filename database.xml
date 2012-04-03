@@ -1,1 +1,376 @@
-../../CSCI4100_Spring12/database.xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- XML Database - Math test question bank v0.1 07 Feb 2012 -->
+
+<!--ENTITY infin "&#8734;"-->
+
+<TestBank>
+	<question>
+	     <id>0001</id>
+	     <subject>Calculus I</subject>
+	     <section>2.2</section>
+	     <topic>limit</topic>
+	     <difficulty>1</difficulty>
+	     <html_q>Determine the infinite limit: lim<sub>x &#8594; -3<sup>+</sup></sub> (x + 2) &#8260; (x + 3)</html_q>
+	     <html_choices><input type="radio" name="Ev0001" value="-&#8734;" checked="checked"/> -&#8734;<input type="Radio" name="Ev0001" value="Off"/> &#8734;<input type="Radio" name="Ev0001" value="Off"/> 0<input type="Radio" name="Ev0001" value="Off"/> 1</html_choices>
+	     <html_a>-&#8734;</html_a>
+	     <latex_q>Determine the infinite limit:\\ \lim_{x \to -\3^+} \frac{x + 2}{x + 3}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0002</id>
+	     <subject>Calculus I</subject>
+	     <section>2.2</section>
+             <topic>limit</topic>
+	     <difficulty>3</difficulty>
+	     <html_q>Determine the infinite limit: lim<sub>x &#8594; 2&#960;<sup>-</sup></sub> x csc x</html_q>
+	     <html_choices><input type="radio" name="Ev0002" value="-&#8734;" checked="checked"/> -&#8734;<input type="Radio" name="Ev0002" value="Off"/> &#8734;<input type="Radio" name="Ev0002" value="Off"/> 0<input type="Radio" name="Ev0002" value="Off"/> 1</html_choices>
+	     <html_a>-&#8734;</html_a>
+	     <latex_q>Determine the infinite limit:\\ \lim_{x \to 2\pi^-} x csc x</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0003</id>
+	     <subject>Calculus I</subject>
+	     <section>2.3</section>
+             <topic>limit</topic>
+	     <difficulty>2</difficulty>
+	     <html_q>Evaluate the limit, if it exists: lim<sub>x &#8594; 2</sub> (x<sup>2</sup> + x - 6) &#8260; (x - 2)</html_q>
+	     <html_choices><input type="radio" name="Ev0003" value="&#8734;" checked="checked"/> &#8734;<input type="Radio" name="Ev0003" value="Off"/> DNE<input type="Radio" name="Ev0003" value="Off"/> 0<input type="Radio" name="Ev0003" value="Off"/> 5</html_choices>
+	     <html_a>5</html_a>
+	     <latex_q>Evaluate the limit, if it exists:\\ \lim_{x \to 2} \frac{x^2 + x - 6}{x - 2}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0004</id>
+	     <subject>Calculus I</subject>
+	     <section>2.3</section>
+             <topic>limit</topic>
+	     <difficulty>3</difficulty>
+	     <html_q>Evaluate the limit, if it exists: lim<sub>x &#8594; 16</sub> (4 - &radic;x) &#8260; (16x - x<sup>2</sup>)</html_q></html_q>
+	     <html_choices><input type="radio" name="Ev0004" value="0" checked="checked"/> 0;<input type="Radio" name="Ev0004" value="Off"/> DNE<input type="Radio" name="Ev0004" value="Off"/> 1/128<input type="Radio" name="Ev0004" value="Off"/> 1</html_choices>
+	     <html_a><sup>1</sup>&#8260;<sub>128</sub></html_a>
+	     <latex_q>Evaluate the limit, if it exists:\\ \lim_{x \to 16} \frac{4 - \sqrt{x}}{16x - x^2}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0005</id>
+	     <subject>Calculus I</subject>
+	     <section>2.5</section>
+             <topic></topic>
+	     <difficulty>3</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a><sup>7</sup>&#8260;<sub>3</sub></html_a>
+	     <latex_q>Use continuity to evaluate the limit: \\ \lim{x \to 4} \frac{5 + \sqrt{x}}{\sqrt{5 + x}}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0006</id>
+	     <subject>Calculus I</subject>
+	     <section>2.5</section>
+             <topic></topic>
+	     <difficulty>3</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>1</html_a>
+	     <latex_q>Use continuity to evaluate the limit: \\ \lim{x \to 1} e^{x^2 - x}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0007</id>
+	     <subject>Calculus I</subject>
+	     <section>2.6</section>
+             <topic></topic>
+	     <difficulty>1</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>0</html_a>
+	     <latex_q>Find the limit: \\ \lim{x \to \infty} \frac{1}{2x + 3}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0008</id>
+	     <subject>Calculus I</subject>
+	     <section>2.6</section>
+             <topic></topic>
+	     <difficulty>3</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a><sup>1</sup>&#8260;<sub>6</sub></html_a>
+	     <latex_q>Find the limit: \\ \lim{x \to \infty} (\sqrt{9x^2 + x} - 3x)</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0009</id>
+	     <subject>Calculus I</subject>
+	     <section>2.7</section>
+             <topic></topic>
+	     <difficulty>2</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>-2 + 8a</html_a>
+	     <latex_q>Find f'(a): \\ f(x) = 3 - 2x + 4x^2</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0010</id>
+	     <subject>Calculus I</subject>
+	     <section>2.7</section>
+             <topic>derivative</topic>
+	     <difficulty>3</difficulty>
+	     <html_q>A particle moves along a straight line with equation of motion s = f(t), where s is measured in meters and t in seconds. Find the velocity and the speed when t = 5.<br />f(t) = 100 + 50t - 4.9t<sup>2</sup></html_q>
+	     <html_choices><input type="radio" name="Ev0010" value="3 m/s" checked="checked"/> 3 m/s<input type="Radio" name="Ev0010" value="Off"/> 0 m/s<input type="Radio" name="Ev0010" value="Off"/> 1.5 m/s<input type="Radio" name="Ev0010" value="Off"/> 1 m/s</html_choices>
+	     <html_a>1 m/s</html_a>
+	     <latex_q>A particle moves along a straight line with equation of motion s = f(t), where s is measured in meters and t in seconds. Find the velocity and the speed when t = 5.\\ f(t) = 100 + 50t - 4.9t^2</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0011</id>
+	     <subject>Calculus I</subject>
+	     <section>3.1</section>
+             <topic></topic>
+	     <difficulty>3</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a><sup>-2</sup>&#8260;<sub>5x<sup>7/5</sup></sub></html_a>
+	     <latex_q>Differentiate the function:\\ y = x^{-2/5}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0012</id>
+	     <subject>Calculus I</subject>
+	     <section>3.1</section>
+             <topic></topic>
+	     <difficulty>4</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a><sup>1</sup>&#8260;<sub>5</sub>t<sup>-4/5</sup> + 10t<sup>3/2</sup></html_a>
+	     <latex_q>Differentiate the function:\\ u = \sqrt[5]{t} + 4\sqrt{t^5}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0013</id>
+	     <subject>Calculus I</subject>
+	     <section>3.2</section>
+             <topic></topic>
+	     <difficulty>4</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>e<sup>x</sup>(x<sup>3</sup> + 3x<sup>2</sup> + 2x + 2)</html_a>
+	     <latex_q>Differentiate:\\ f(x) = (x^3 + 2x)e^x</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0014</id>
+	     <subject>Calculus I</subject>
+	     <section>3.2</section>
+             <topic></topic>
+	     <difficulty>4</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>(x<sup>2</sup>(3 - x<sup>2</sup>))/(1 - x<sup>2</sup>)<sup>2</sup>)</html_a>
+	     <latex_q>Differentiate:\\ y = \frac{x^3}{1 - x^2}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0015</id>
+	     <subject>Calculus I</subject>
+	     <section>3.3</section>
+             <topic></topic>
+	     <difficulty>3</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>6x + 2 sin x</html_a>
+	     <latex_q>Differentiate:\\ f(x) = 3x^2 - 2 cos x</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0016</id>
+	     <subject>Calculus I</subject>
+	     <section>3.3</section>
+             <topic>derivative</topic>
+	     <difficulty>4</difficulty>
+	     <html_q>Find an equation of the tangent line to the curve y = sec x at (&#960; &#8260; 3, 2)</html_q>
+	     <html_choices><input type="radio" name="Ev0016" value="y - 2 = 2(3)^1/2(x - ^pi/3)" checked="checked"/> y - 2 = 2(3)<sup>1/2</sup>(x - <sup>&#960;</sup>/<sub>3</sub>)<input type="Radio" name="Ev0016" value="Off"/> y - 2 = 3x - &#960;<input type="Radio" name="Ev0016" value="Off"/> y = 3 csc x + 2<input type="Radio" name="Ev0016" value="Off"/> y = 2x + 3</html_choices>
+	     <html_a>y - 2 = 2(3)<sup>1/2</sup>(x - <sup>&#960;</sup>/<sub>3</sub>)</html_a>
+	     <latex_q>Find an equation of the tangent line to the curve y = sec x at (\frac{\pi}{3}, 2)</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0017</id>
+	     <subject>Calculus I</subject>
+	     <section>3.4</section>
+             <topic></topic>
+	     <difficulty>4</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>5(x<sup>4</sup> + 3x<sup>2</sup> - 2)<sup>4</sup>(4x<sup>3</sup> + 6x)</html_a>
+	     <latex_q>Find the derivative of the function: F(x) = (x^4 + 3x^2 - 2)^5</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0018</id>
+	     <subject>Calculus I</subject>
+	     <section>3.4</section>
+             <topic></topic>
+	     <difficulty>5</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>8(2x - 5)<sup>3</sup>(8x<sup>2</sup> - 5)<sup>-4</sup>(-4x<sup>2</sup> + 30x - 5)</html_a>
+	     <latex_q>Find the derivative of the function: y = (2x - 5)^4(8x^2 - 5)^{-3}</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0019</id>
+	     <subject>Calculus I</subject>
+	     <section>3.5</section>
+             <topic></topic>
+	     <difficulty>3</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>y' = (-x<sup>2</sup>)/(y<sup>2</sup>)</html_a>
+	     <latex_q>Find dy/dx by implicit differentiation: x^3 + y^3 = 1</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0020</id>
+	     <subject>Calculus I</subject>
+	     <section>3.5</section>
+             <topic>implicit differentiation</topic>
+	     <difficulty>5</difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a>y' = (e<sup>y</sup> sin x + y cos(xy))/(e<sup>y</sup> cos x - x cos(xy))</html_a>
+	     <latex_q>Find dy/dx by implicit differentiation: e^y cos x = 1 + sin(xy)</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0021</id>
+	     <subject>Calculus I</subject>
+	     <section>3.6</section>
+             <topic>derivative</topic>
+	     <difficulty>3</difficulty>
+	     <html_q>Differentiate the function: f(x) = sin(ln x)</html_q>
+	     <html_choices><input type="radio" name="Ev0021" value="(cos x)/x" checked="checked"/> <sup>cos x</sup>&#8260;<sub>x</sub><input type="Radio" name="Ev0021" value="Off"/> <sup>cos(ln x)<sup>&#8260;<sub>x</sub><input type="Radio" name="Ev0021" value="Off"/> <sup>ln x</sup>&#8260;<sub>x</sub><input type="Radio" name="Ev0021" value="Off"/> x cos(ln x)</html_choices>
+	     <html_a>cos(ln x)/x</html_a>
+	     <latex_q>Differentiate the function: f(x) = sin(ln x)</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+	<question>
+	     <id>0022</id>
+	     <subject>Calculus I</subject>
+	     <section>3.6</section>
+             <topic>derivative</topic>
+	     <difficulty>5</difficulty>
+	     <html_q>Differentiate the function: y = ln(e^{-x} + xe^{-x})</html_q>
+	     <html_choices><input type="radio" name="Ev0022" value="x^2 - x" checked="checked"/> <sup>x<sup>2</sup> - x<input type="Radio" name="Ev0022" value="Off"/> <sup>1+x</sup>&#8260;<sub>-x</sub><input type="Radio" name="Ev0022" value="Off"/> <sup>-x</sup>&#8260;<sub>1+x</sub><input type="Radio" name="Ev0022" value="Off"/> x</html_choices>
+	     <html_a>(-x)/(1 + x)</html_a>
+	     <latex_q>Differentiate the function: y = ln(e^{-x} + xe^{-x})</latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+
+
+
+</TestBank>
+<!-- DATABASE FORMAT
+
+
+	<question>
+	     <id></id>
+	     <subject></subject>
+	     <section></section>
+             <topic></topic>
+	     <difficulty></difficulty>
+	     <html_q></html_q>
+	     <html_choices></html_choices>
+	     <html_a></html_a>
+	     <latex_q></latex_q>
+	     <jeopardy_q></jeopardy_q>
+	     <jeopardy_a></jeopardy_a>
+	     <instructions></instructions>
+	</question>
+
+
+-->
+
+
+
+<!--<question>
+     <id>0001</id>
+     <subject>MATH</subject>
+     <test_no>1</test_no>
+     <test_type>Q</test_type>
+     <difficulty>1</difficulty>
+     <html_q>"<form><td>Evaluate the derivative of x<sup>2</sup> dx:&nbsp;</td><br /><td><input type="radio" name="Evaluate" value="2x" checked="checked"/> 2x<input type="radio" name="Evaluate" value="Off"/> <sup>x<sup>3</sup></sup>&frasl;<sub>3</sub> </td></form>"</html_q>
+     <html_a>"1) using java,math.mycalculator; 2) using namespace mycalculator; 3) import java.math.mycalculator; 4) package java.math.mycalculator</html_a>
+     <latex_q>"\begin{problem}[#problem_no]Evaluate x$^2$ dx\end{problem}\vfill"</latex_q>
+     <jeopardy_q>"What is 2x with respect to derivatives?"</jeopardy_q>
+     <jeopardy_a>"The derivative of x<sup>2</sup> dx"</jeopardy_a>
+</question>
+-->
